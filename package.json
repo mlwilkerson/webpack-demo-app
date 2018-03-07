@@ -1,0 +1,22 @@
+{
+  "name": "graphql-mock-webpack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "author": "Mike Wilkerson <mwilkerson@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
